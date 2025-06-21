@@ -8,6 +8,6 @@ public class Caixa {
         double b = Double.parseDouble(args[1]);
         double c = Double.parseDouble(args[2]);
         double area = 2 * (a*b + a*c + b*c);
-        System.out.println("Área da caixa: " + area);
+        System.out.println("Área da caixa " + area);
     }
 }
